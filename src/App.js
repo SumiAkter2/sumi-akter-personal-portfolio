@@ -3,8 +3,9 @@ import "./App.css";
 
 function App() {
   const [dark, setDark] = useState(false);
+
   return (
-    <div className="App bg-secondary">
+    <div className="App " data-theme={dark ? "dark" : "light"}>
       <button className="btn btn-primary" onClick={() => setDark(!dark)}>
         Hello
       </button>

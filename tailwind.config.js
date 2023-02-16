@@ -6,10 +6,10 @@ module.exports = {
     themes: [
       {
         light: {
-          primary: "#f3f4f6",
+          primary: "#d97706",
         },
         dark: { primary: "#701a75" },
-        // cupcake: { primary: "#d1d5db" },
+        cupcake: { primary: "#d1d5db" },
         // coffee: { primary: "#06b6d4" },
         // synthwave: { primary: "#6b7280" },
       },
