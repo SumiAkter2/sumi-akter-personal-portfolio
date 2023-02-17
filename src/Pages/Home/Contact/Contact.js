@@ -1,34 +1,35 @@
 import React, { useRef } from "react";
 import { IoMdMail } from "react-icons/io";
 import { ImLocation } from "react-icons/im";
-import { IoMdSend } from "react-icons/io";
+import emailjs from "@emailjs/browser";
 import { BsFillTelephoneForwardFill } from "react-icons/bs";
 import PrimaryButton from "../../Button/PrimaryButton";
+
 const Contact = () => {
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
-    // emailjs
-    //   .sendForm(
-    //     "service_0i5kzgk",
-    //     "template_hdatjgj",
-    //     form.current,
-    //     "zaDkgqaW77bTY4aEn"
-    //   )
-    //   .then(
-    //     (result) => {
-    //       console.log(result.text);
-    //       toast("Successfully send email !");
-    //     },
-    //     (error) => {
-    //       console.log(error.text);
-    //     }
-    //   );
+    emailjs
+      .sendForm(
+        "service_0i5kzgk",
+        "template_hdatjgj",
+        form.current,
+        "zaDkgqaW77bTY4aEn"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          alert("Successfully send email !");
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
   };
   return (
     <div>
-      <h1 className="lg:text-5xl text-3xl font-bold text-center lg:my-12 my-6">
+      <h1 className="lg:text-5xl text-3xl font-bold text-center lg:my-12 my-6 text-primary">
         Get In Touch
       </h1>
       <div className="lg:flex items-start">
