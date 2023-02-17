@@ -1,15 +1,14 @@
 import { useState } from "react";
+import { RouterProvider } from "react-router-dom";
 import "./App.css";
+import router from "./Router/Routes";
 
 function App() {
   const [dark, setDark] = useState(false);
 
   return (
-    <div className="App " data-theme={dark ? "dark" : "light"}>
-      <button className="btn btn-primary" onClick={() => setDark(!dark)}>
-        Hello
-      </button>
-      <h1 className="text-primary text-3xl"> Heljsdtui lsdkfjrueiw</h1>
+    <div className="App mx-auto max-w-screen-xl" data-theme={dark ? "dark" : "light"}>
+      <RouterProvider router={router}> </RouterProvider>
     </div>
   );
 }
