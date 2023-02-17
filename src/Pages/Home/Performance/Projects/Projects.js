@@ -46,7 +46,7 @@ const Projects = () => {
 
       <div className="w-full grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 mx-auto my-12">
         {projects.map((project) => (
-          <div className=" ">
+          <div key={project.id}>
             <div class="cards">
               <div class="cards2">
                 <div className="mx-auto image-wrap p-4">

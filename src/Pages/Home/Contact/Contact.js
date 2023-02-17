@@ -1,15 +1,18 @@
 import React, { useRef } from "react";
 import { IoMdMail } from "react-icons/io";
 import { ImLocation } from "react-icons/im";
+import { IoMdSend } from "react-icons/io";
 import emailjs from "@emailjs/browser";
 import { BsFillTelephoneForwardFill } from "react-icons/bs";
 import PrimaryButton from "../../Button/PrimaryButton";
+import { toast } from "react-toastify";
 
 const Contact = () => {
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
+
     emailjs
       .sendForm(
         "service_0i5kzgk",
@@ -20,7 +23,8 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
-          alert("Successfully send email !");
+          toast("Successfully send email !");
+          e.target.reset();
         },
         (error) => {
           console.log(error.text);
@@ -96,12 +100,14 @@ const Contact = () => {
             </div>
 
             <div className="mt-12">
-              <PrimaryButton
+              <button
                 type="submit"
-                className="mt-12 flex justify-center items-center"
+                className=" flex justify-center items-center btn btn-primary hover:border-white bg-black w-56 h-14 rounded-full "
               >
-                <p className=" flex justify-center items-center">Send</p>
-              </PrimaryButton>
+                <p className=" flex justify-center items-center">
+                  <IoMdSend size="25px" className="mr-4" /> Send
+                </p>
+              </button>
             </div>
           </form>
         </div>
