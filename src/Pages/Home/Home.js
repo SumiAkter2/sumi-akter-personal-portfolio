@@ -1,6 +1,7 @@
 import React, { useCallback } from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
+import About from "./About";
 import Banner from "./Banner";
 
 function Home() {
@@ -47,13 +48,13 @@ function Home() {
             color: {
               value: "#fff",
             },
-            // links: {
-            //   color: "#fff",
-            //   distance: 140,
-            //   enable: true,
-            //   opacity: 0.5,
-            //   width: 1,
-            // },
+            links: {
+              color: "#fff",
+              distance: 140,
+              enable: true,
+              opacity: 0.5,
+              width: .5,
+            },
             collisions: {
               enable: true,
             },
@@ -72,7 +73,7 @@ function Home() {
                 enable: true,
                 area: 800,
               },
-              value: 80,
+              value: 90,
             },
             opacity: {
               value: 0.5,
@@ -88,6 +89,7 @@ function Home() {
         }}
       />
       <Banner />
+      <About/>
     </div>
   );
 }

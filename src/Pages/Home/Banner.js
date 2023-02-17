@@ -69,7 +69,7 @@ const Banner = () => {
                   </li>
                 </ul>
               </div>
-              <p className="font-bold text-sm"> sumiakter6335@gmail.com</p>
+              <p className="font-bold text-sm lg:block hidden"> sumiakter6335@gmail.com</p>
             </div>
           </div>
           {/* <div className=" ">
@@ -101,7 +101,7 @@ const Banner = () => {
         </div>
       </div>
 
-      <div className="flex justify-center items-center  lg:mt-12">
+      <div className="flex justify-center items-center  lg:mt-12 mt-6">
         <div className="font-sans">
           <small data-aos="fade-down">Hi, Welcome to my Portfolio</small>
           <h1 className="lg:text-5xl text-3xl font-bold lg:my-12 my-6">
