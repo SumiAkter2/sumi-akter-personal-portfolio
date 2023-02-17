@@ -5,9 +5,7 @@ import router from "./Router/Routes";
 function App() {
   return (
     <div className=" mx-auto max-w-screen-xl bg-base-100 " data-theme="dark">
-      <div>
-        <h1> navbar </h1>
-      </div>
+      <div></div>
       <RouterProvider router={router}> </RouterProvider>
     </div>
   );
