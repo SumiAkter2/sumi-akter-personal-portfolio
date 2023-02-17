@@ -7,6 +7,7 @@ import Contact from "./Contact/Contact";
 import ExperienceCard from "./HtmlSlide/ExperienceCard/ExperienceCard";
 import HtmlSlide from "./HtmlSlide/HtmlSlide";
 import Performance from "./Performance/Performance";
+import Projects from "./Performance/Projects/Projects";
 import Testimonial from "./Testimonial/Testimonial";
 
 function Home() {
@@ -99,6 +100,7 @@ function Home() {
       <ExperienceCard />
       <Testimonial />
       <Performance />
+      <Projects />
       <Contact />
     </div>
   );
