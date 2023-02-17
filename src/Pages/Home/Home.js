@@ -3,6 +3,7 @@ import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import About from "./About";
 import Banner from "./Banner";
+import Contact from "./Contact/Contact";
 import ExperienceCard from "./HtmlSlide/ExperienceCard/ExperienceCard";
 import HtmlSlide from "./HtmlSlide/HtmlSlide";
 import Performance from "./Performance/Performance";
@@ -97,7 +98,8 @@ function Home() {
       <HtmlSlide />
       <ExperienceCard />
       <Testimonial />
-      <Performance/>
+      <Performance />
+      <Contact />
     </div>
   );
 }
