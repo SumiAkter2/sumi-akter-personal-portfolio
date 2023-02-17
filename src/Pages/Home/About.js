@@ -6,7 +6,7 @@ import { Typewriter } from "react-simple-typewriter";
 
 const About = () => {
   return (
-    <div className="px-6 text-white">
+    <div className="px-6 text-white ">
       <div className="pt-12">
         <small data-aos="fade-down">VISIT MY PORTFOLIO & HIRE ME</small>
         <h1
@@ -33,7 +33,7 @@ const About = () => {
           motivate people to lead a happy life. On holiday, I spend my time with
           my family.
         </p>
-        <div className="mt-12">
+        <div className="mt-6 lg:mt-12">
           <NavLink
             to="/portfolio"
             // data-aos="zoom-in-up" data-aos-duration="1000"
@@ -43,13 +43,13 @@ const About = () => {
         </div>
       </div>
       {/* ==================== */}
-      <div className="lg:p-12 p-6">
+      <div className="my-6 lg:my-12 ">
         <h3 className="text-3xl py-4">
-          I'm {}
+          About{" "}
           <span style={{ color: "#ec42f5" }}>
             {/* Style will be inherited from the parent element */}
             <Typewriter
-              words={["SUMI AKTER", " WEB DEVELOPER"]}
+              words={[" Personal Information"]}
               loop={20}
               cursor
               cursorStyle=" !"
@@ -59,7 +59,7 @@ const About = () => {
             />
           </span>
         </h3>
-        <div className="lg:flex justify-center items-center gap-x-5">
+        <div className="lg:flex lg:justify-start justify-center items-center gap-x-5">
           <ul className="grid grid-cols-2 pb-12 gap-0 ">
             <li>First Name : </li>
             <li className="font-bold">Sumi</li>
