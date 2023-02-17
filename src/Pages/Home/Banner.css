@@ -1,5 +1,5 @@
 .banner-container{
-    background-color: #484f5e;
+    background-color: #1a1c22;
         min-height: 100vh;
         border-radius:20px;
         background-image: url('../../assets/banner.jpg');
@@ -9,7 +9,7 @@
         background-blend-mode: overlay;
         color: white;
         line-height: 1.8;
-        opacity: 90;
+        opacity: 70;
         
        
 }

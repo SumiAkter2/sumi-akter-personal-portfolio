@@ -2,6 +2,8 @@ import React from "react";
 import "./Banner.css";
 import { ImDownload3 } from "react-icons/im";
 import { Typewriter } from "react-simple-typewriter";
+import PrimaryButton from "../Button/PrimaryButton";
+
 const Banner = () => {
   return (
     <div className="banner-container text-start lg:p-12 p-6">
@@ -9,9 +11,9 @@ const Banner = () => {
         <div className="flex justify-center items-center  lg:mt-12">
           <div className="  font-sans">
             <small data-aos="fade-down">Hi, Welcome to my Portfolio</small>
-            <h1 className="lg:text-5xl text-3xl font-bold my-6">
+            <h1 className="lg:text-5xl text-3xl font-bold lg:my-12 my-6">
               I'm {}
-              <span style={{ color: "#06b6d4" }}>
+              <span>
                 <Typewriter
                   words={["SUMI AKTER", "A WEB DEVELOPER"]}
                   loop={20}
@@ -30,8 +32,8 @@ const Banner = () => {
               website more & more interactive with web animations.
             </p>
 
-            <div>
-              <button className="btn btn-primary mt-6 lg:mt-12">
+            <div className=" mt-6 lg:mt-12">
+              <PrimaryButton>
                 <a
                   // href={pdf}
                   href="/"
@@ -40,7 +42,7 @@ const Banner = () => {
                 >
                   <ImDownload3 className="mr-4 mt-2" /> Download Resume
                 </a>
-              </button>
+              </PrimaryButton>
             </div>
           </div>
         </div>
