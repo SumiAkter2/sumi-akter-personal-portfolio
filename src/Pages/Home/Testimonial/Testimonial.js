@@ -61,7 +61,7 @@ const Testimonial = () => {
                 <div className="hero-content flex-col lg:flex-row">
                   <img
                     src={c.img}
-                    className="max-w-sm rounded-lg shadow-2xl p-6 lg:p-12 mx-auto bg-black"
+                    className="max-w-sm rounded-lg shadow-2xl p-6 lg:p-12 mx-auto lg:mx-auto bg-black"
                     alt="man-img"
                   />
                   <div className="text-white text-start lg:w-1/2 px-6">
