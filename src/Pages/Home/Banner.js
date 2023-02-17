@@ -17,7 +17,7 @@ const Banner = () => {
     <div className="banner-container  max-w-screen text-start lg:p-12 p-6 mx-auto">
       <div>
         <div className="bg-black p-6 rounded-lg">
-          <div >
+          <div>
             <div className="flex justify-between items-center px-6 ">
               <div className="flex justify-center items-center gap-x-6 ">
                 <a
@@ -69,7 +69,10 @@ const Banner = () => {
                   </li>
                 </ul>
               </div>
-              <p className="font-bold text-sm lg:block hidden"> sumiakter6335@gmail.com</p>
+              <p className="font-bold text-sm lg:block hidden">
+                {" "}
+                sumiakter6335@gmail.com
+              </p>
             </div>
           </div>
           {/* <div className=" ">
@@ -131,9 +134,9 @@ const Banner = () => {
                 // href={pdf}
                 href="/"
                 download
-                className="flex justify-center items-center"
+                className="ml-2 mt-2"
               >
-                <ImDownload3 className="mr-4 mt-2" /> Download Resume
+                Download Resume
               </a>
             </PrimaryButton>
           </div>
