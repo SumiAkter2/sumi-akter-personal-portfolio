@@ -6,7 +6,7 @@ import { FaHeadset } from "react-icons/fa";
 const Performance = () => {
   return (
     <div>
-      <div className="lg:flex justify-center items-center gap-x-8 bg-black px-2 mx-6 rounded-lg py-6 my-6">
+      <div className="lg:flex justify-center items-center gap-x-8 bg-black px-2 mx-auto rounded-lg py-6 ">
         <div class="performance-card my-6 mx-auto " data-aos="zoom-in">
           <div class="card2">
             <div className=" text-white p-6">
