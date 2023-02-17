@@ -28,20 +28,22 @@ const Contact = () => {
       );
   };
   return (
-    <div>
-      <h1 className="lg:text-5xl text-3xl font-bold text-center lg:my-12 my-6 text-primary">
+    <div className="my-6">
+      <h1 className="lg:text-5xl text-3xl font-bold text-center lg:my-12 my-6 ">
         Get In Touch
       </h1>
       <div className="lg:flex items-start">
         <div className=" lg:w-2/5 p-6">
-          <h1 className="text-3xl font-bold mb-4">DON'T BE SHY !</h1>
+          <h1 className="text-3xl font-bold mb-6 text-primary">
+            DON'T BE SHY !
+          </h1>
           <p className="">
             Feel free to get in touch with me. I am always open to discussing
             new projects, creative ideas or opportunities to be part of your
             visions.
           </p>
 
-          <div className="flex justify-start items-center">
+          <div className="flex justify-start items-center mt-6">
             <IoMdMail size="40px" fill="pink" />
             <div className="p-2">
               <p>MAIL ME</p>
