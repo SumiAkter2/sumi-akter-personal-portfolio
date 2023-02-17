@@ -109,7 +109,7 @@ const Banner = () => {
             <span style={{ color: "#ec42f5" }}>
               <Typewriter
                 words={["SUMI AKTER", "A WEB DEVELOPER"]}
-                loop={20}
+                loop={40}
                 cursor
                 cursorStyle=" !"
                 typeSpeed={90}

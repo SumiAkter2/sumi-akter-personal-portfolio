@@ -50,7 +50,7 @@ const About = () => {
             {/* Style will be inherited from the parent element */}
             <Typewriter
               words={[" Personal Information"]}
-              loop={20}
+              loop={40}
               cursor
               cursorStyle=" !"
               typeSpeed={90}
