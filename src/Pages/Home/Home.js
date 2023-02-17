@@ -3,6 +3,8 @@ import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import About from "./About";
 import Banner from "./Banner";
+import ExperienceCard from "./HtmlSlide/ExperienceCard/ExperienceCard";
+import HtmlSlide from "./HtmlSlide/HtmlSlide";
 
 function Home() {
   const particlesInit = useCallback(async (engine) => {
@@ -53,7 +55,7 @@ function Home() {
               distance: 140,
               enable: true,
               opacity: 0.5,
-              width: .5,
+              width: 0.5,
             },
             collisions: {
               enable: true,
@@ -89,7 +91,9 @@ function Home() {
         }}
       />
       <Banner />
-      <About/>
+      <About />
+      <HtmlSlide />
+      <ExperienceCard />
     </div>
   );
 }
