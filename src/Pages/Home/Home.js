@@ -5,15 +5,16 @@ import About from "./About";
 import Banner from "./Banner";
 import ExperienceCard from "./HtmlSlide/ExperienceCard/ExperienceCard";
 import HtmlSlide from "./HtmlSlide/HtmlSlide";
+import Testimonial from "./Testimonial/Testimonial";
 
 function Home() {
   const particlesInit = useCallback(async (engine) => {
-    console.log(engine);
+    console.log("engine");
     await loadFull(engine);
   }, []);
 
   const particlesLoaded = useCallback(async (container) => {
-    await console.log(container);
+    await console.log("container");
   }, []);
 
   return (
@@ -94,6 +95,7 @@ function Home() {
       <About />
       <HtmlSlide />
       <ExperienceCard />
+      <Testimonial />
     </div>
   );
 }
