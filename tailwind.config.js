@@ -5,13 +5,13 @@ module.exports = {
   daisyui: {
     themes: [
       {
-        light: {
-          primary: "#f3f4f6",
-          secondary: "#701a75",
-        },
         dark: {
-          primary: "#f3f4f6",
-          secondary: "#701a75",
+          primary: "#ec42f5",
+          secondary: "#c7d2fe",
+          neutral: "#ffffff",
+          "base-100": "#1F2937",
+
+          // secondary: "#701a75",
         },
       },
     ],

@@ -6,14 +6,14 @@ import PrimaryButton from "../Button/PrimaryButton";
 
 const Banner = () => {
   return (
-    <div className="banner-container text-start lg:p-12 p-6">
+    <div className="banner-container max-w-screen-xl text-start lg:p-12 p-6 mx-auto">
       <div>
         <div className="flex justify-center items-center  lg:mt-12">
           <div className="  font-sans">
             <small data-aos="fade-down">Hi, Welcome to my Portfolio</small>
             <h1 className="lg:text-5xl text-3xl font-bold lg:my-12 my-6">
               I'm {}
-              <span>
+              <span style={{ color: "#ec42f5" }}>
                 <Typewriter
                   words={["SUMI AKTER", "A WEB DEVELOPER"]}
                   loop={20}

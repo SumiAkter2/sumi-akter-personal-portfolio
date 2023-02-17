@@ -1,10 +1,10 @@
 import React from "react";
 
-const Header = ({ children }) => {
+const Header = () => {
   return (
     <div>
-      <div className="navbar bg-base-100">
-        <div className="navbar-start">
+      {/* <div className="navbar">
+        <div className="navbar-start text-primary">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
               <svg
@@ -56,6 +56,7 @@ const Header = ({ children }) => {
               </li>
             </ul>
           </div>
+
           <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
         </div>
         <div className="navbar-center hidden lg:flex">
@@ -93,7 +94,7 @@ const Header = ({ children }) => {
         <div className="navbar-end">
           <a className="btn">Get started</a>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
