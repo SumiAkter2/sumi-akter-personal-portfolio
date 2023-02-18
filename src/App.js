@@ -23,7 +23,7 @@ function App() {
         className=" bg-transparent fixed top-16 right-3
       "
       >
-        <LinkButton childrens={icon1}>Home</LinkButton>
+        <LinkButton childrens={icon1}></LinkButton>
         <LinkButton childrens={icon2}>About</LinkButton>
         <LinkButton childrens={icon3}>Contact</LinkButton>
         <LinkButton childrens={icon4}>Portfolio</LinkButton>

@@ -1,6 +1,6 @@
 .cssbuttons-io-button {
     background: linear-gradient(163deg, rgb(157, 28, 213) 0%, #ec42f5 100%);
-    width: 125px;
+    width: 50px;
     color: white;
     font-family: inherit;
     padding: 0.35em;
@@ -20,7 +20,14 @@
     padding-right: 1em;
     /* padding-right: 50px; */
 }
-
+/* .cssbuttons-io-button::before{
+content: '';
+width:50px;
+} */
+/* .cssbuttons-io-button::after {
+    content: 'dddd';
+    width: 150px;
+} */
 .cssbuttons-io-button .icon {
     background: white;
     margin-left: 1em;

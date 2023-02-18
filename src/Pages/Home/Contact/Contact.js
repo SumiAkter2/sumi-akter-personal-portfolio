@@ -47,21 +47,21 @@ const Contact = () => {
           </p>
 
           <div className="flex justify-start items-center mt-6">
-            <IoMdMail size="40px" fill="pink" />
+            <IoMdMail size="40px" fill="#ec42f5" />
             <div className="p-2">
               <p>MAIL ME</p>
               <p>sumiakter6335@gmail.com</p>
             </div>
           </div>
           <div className="flex justify-start items-center">
-            <BsFillTelephoneForwardFill size="40px" fill="pink" />
+            <BsFillTelephoneForwardFill size="40px" fill="#ec42f5" />
             <div className="p-2">
               <p>CALL ME</p>
               <p>+8801718723057</p>
             </div>
           </div>
           <div className="flex justify-start items-center">
-            <ImLocation size="40px" fill="pink" />
+            <ImLocation size="40px" fill="#ec42f5" />
             <div className="p-2">
               <p>LOCATION </p>
               <p>Dhaka, Bangladesh</p>
