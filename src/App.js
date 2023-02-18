@@ -70,14 +70,14 @@ function App() {
         <LinkButton props={"/"} prop={icon1}>
           Home
         </LinkButton>
-        <LinkButton props={"/portfolio"} prop={icon4}>
+        <LinkButton props={"/portfolio"} prop={icon3}>
           Portfolio
         </LinkButton>
         <LinkButton props={"/about"} prop={icon2}>
           About
         </LinkButton>
 
-        <LinkButton props={"/contact"} prop={icon3}>
+        <LinkButton props={"/contact"} prop={icon4}>
           Contact
         </LinkButton>
       </div>
