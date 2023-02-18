@@ -5,6 +5,7 @@ import { GrLinkedinOption } from "react-icons/gr";
 import { RiGithubLine } from "react-icons/ri";
 import { Typewriter } from "react-simple-typewriter";
 import PrimaryButton from "../Button/PrimaryButton";
+import ResumePdf from "../../assets/img/Sumi Akter- resume .pdf";
 import { NavLink } from "react-router-dom";
 
 const Banner = () => {
@@ -70,32 +71,6 @@ const Banner = () => {
               </p>
             </div>
           </div>
-          {/* <div className=" ">
-            <ul className="m-1 p-2 menu  w-16 bg-secondary  rounded-md text-white text-sm ">
-              <div className="flex justify-center items-center lg:hidden mx-auto">
-                <li>
-                  <NavLink to="/" className="rounded-md ">
-                    <FaHome />
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink className="rounded-md mt-2" to="/about">
-                    <HiInformationCircle />
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink className="rounded-md mt-2" to="/portfolio">
-                    <MdWork />
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink className="rounded-md mt-2" to="/contact">
-                    <MdContactPhone />
-                  </NavLink>
-                </li>
-              </div>
-            </ul>
-          </div> */}
         </div>
       </div>
 
@@ -120,17 +95,12 @@ const Banner = () => {
             Hi, I am Sumi Akter. A passionate junior web developer with
             marvelous skilled and working in this sector with high reputation. I
             can provide clean code and pixel perfect design. I also make website
-            more & more interactive with web animations.
+            more & more interactive with animations.
           </p>
 
           <div className="mt-12">
             <PrimaryButton>
-              <a
-                // href={pdf}
-                href="/"
-                download
-                className="ml-2 mt-2"
-              >
+              <a href={ResumePdf} download className="ml-2 mt-2">
                 Download Resume
               </a>
             </PrimaryButton>
