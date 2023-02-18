@@ -10,7 +10,7 @@ const ExperienceCard = () => {
             data-aos="fade-right"
             data-aos-delay="300"
           >
-            <div class="content text-center">
+            <div class="content text-center mt-4">
               <h2>
                 <span className="text-3xl font-bold">
                   20+ <br />
@@ -24,7 +24,7 @@ const ExperienceCard = () => {
             data-aos="fade-up"
             data-aos-delay="500"
           >
-            <div class="content text-center">
+            <div class="content text-center mt-4">
               <h2>
                 <span className="text-3xl font-bold">
                   Good <br />{" "}
@@ -38,7 +38,7 @@ const ExperienceCard = () => {
             data-aos="fade-down"
             data-aos-delay="700"
           >
-            <div class="content text-center">
+            <div class="content text-center mt-4">
               <h2>
                 <span className="text-3xl font-bold">
                   100% <br />
@@ -52,7 +52,7 @@ const ExperienceCard = () => {
             data-aos="fade-left"
             data-aos-delay="900"
           >
-            <div class="content text-center">
+            <div class="content text-center mt-4">
               <h2>
                 <span className="text-3xl font-bold">
                   2+ <br />{" "}

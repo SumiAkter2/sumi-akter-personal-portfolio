@@ -128,7 +128,7 @@ const Banner = () => {
             more & more interactive with web animations.
           </p>
 
-          <div className=" mt-6 lg:mt-12">
+          <div className="mt-12">
             <PrimaryButton>
               <a
                 // href={pdf}
