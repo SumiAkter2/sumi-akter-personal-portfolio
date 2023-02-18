@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import PrimaryButton from "../../../Button/PrimaryButton";
 
 const AllProjects = () => {
   const projects = [
@@ -144,33 +146,46 @@ const AllProjects = () => {
   ];
   return (
     <div>
-      <h1 className="text-3xl lg:text-5xl text-center font-bold">
+      <h1 className="text-3xl lg:text-5xl text-center font-bold my-12">
         Latest Portfolio
       </h1>
 
-      <div className="  grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 mx-auto my-12">
+      <div className="w-full grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 mx-auto my-12">
         {projects.map((project) => (
           <div key={project.id}>
             <div class="cards">
               <div class="cards2">
                 <div className="mx-auto image-wrap p-4">
                   <img src={project.img} alt="project-img" className="" />
-                  <div className="mt-4">
+                  <div className="mt-6 flex justify-between items-center">
                     <a target="_blank" rel="noreferrer" href={project.liveLink}>
                       {" "}
-                      <button className="btn bg-black border-0 w-24">
+                      <button className="btn btn-primary btn-outline rounded-full bg-black w-36">
                         Live
                       </button>
                     </a>
-                    <button className="btn bg-black border-0 ml-4 w-24">
-                      Code
-                    </button>
+                    <a
+                      target="_blank"
+                      rel="noreferrer"
+                      href={project.ClientsLink}
+                    >
+                      {" "}
+                      <button className="btn btn-primary btn-outline rounded-full bg-black w-36">
+                        Code
+                      </button>
+                    </a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         ))}
+      </div>
+
+      <div className="flex justify-center items-center my-24">
+        <Link to="/">
+          <PrimaryButton>Back Home</PrimaryButton>
+        </Link>
       </div>
     </div>
   );

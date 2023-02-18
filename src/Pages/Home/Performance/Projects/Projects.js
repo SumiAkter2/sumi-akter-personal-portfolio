@@ -58,9 +58,16 @@ const Projects = () => {
                         Live
                       </button>
                     </a>
-                    <button className="btn btn-primary btn-outline rounded-full bg-black w-36">
-                      Code
-                    </button>
+                    <a
+                      target="_blank"
+                      rel="noreferrer"
+                      href={project.ClientsLink}
+                    >
+                      {" "}
+                      <button className="btn btn-primary btn-outline rounded-full bg-black w-36">
+                        Code
+                      </button>
+                    </a>
                   </div>
                 </div>
               </div>
