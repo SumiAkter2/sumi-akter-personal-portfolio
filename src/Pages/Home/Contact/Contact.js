@@ -4,7 +4,6 @@ import { ImLocation } from "react-icons/im";
 import { IoMdSend } from "react-icons/io";
 import emailjs from "@emailjs/browser";
 import { BsFillTelephoneForwardFill } from "react-icons/bs";
-import PrimaryButton from "../../Button/PrimaryButton";
 import { toast } from "react-toastify";
 
 const Contact = () => {
