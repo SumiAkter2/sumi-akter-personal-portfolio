@@ -153,8 +153,8 @@ const AllProjects = () => {
       <div className="w-full grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 mx-auto my-12">
         {projects.map((project) => (
           <div key={project.id}>
-            <div class="cards">
-              <div class="cards2">
+            <div className="cards">
+              <div className="cards2">
                 <div className="mx-auto image-wrap p-4">
                   <img src={project.img} alt="project-img" className="" />
                   <div className="mt-6 flex justify-between items-center">

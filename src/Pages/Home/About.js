@@ -78,7 +78,6 @@ const About = () => {
             <li className="font-bold">Available</li>
           </ul>
           <div>
-            <LinkButton> home</LinkButton>
             <SkillBar />
           </div>
         </div>

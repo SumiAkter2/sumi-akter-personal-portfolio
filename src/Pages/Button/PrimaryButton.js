@@ -3,11 +3,11 @@ import "./Button.css";
 const PrimaryButton = ({ children }) => {
   return (
     <div className="mt-12">
-      <buttons class="learn-more">
-        <span class="circle" aria-hidden="true">
-          <span class="icon arrow"></span>
+      <buttons className="learn-more">
+        <span className="circle" aria-hidden="true">
+          <span className="icon arrow"></span>
         </span>
-        <span class="buttons-text ">{children}</span>
+        <span className="buttons-text ">{children}</span>
       </buttons>
     </div>
   );

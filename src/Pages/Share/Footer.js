@@ -5,6 +5,7 @@ import { GrLinkedinOption } from "react-icons/gr";
 import { RiGithubLine } from "react-icons/ri";
 
 const Footer = () => {
+  const date = new Date().getFullYear();
   return (
     <footer className="footer p-10 bg-black rounded-lg">
       <div>
@@ -12,7 +13,7 @@ const Footer = () => {
           <img src={logo} alt="logo" className="w-12" />
           <p className="ml-4">sumiakter6335@gmail.com</p>
         </div>
-        <p className="mt-6"> All Copy Right Reserve By Sumi Akter</p>
+        <p className="mt-6">  Copy Right &copy; {date} All Reserved By Sumi Akter</p>
       </div>
 
       <div>

@@ -47,8 +47,8 @@ const Projects = () => {
       <div className="w-full grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 mx-auto my-12">
         {projects.map((project) => (
           <div key={project.id}>
-            <div class="cards">
-              <div class="cards2">
+            <div className="cards">
+              <div className="cards2">
                 <div className="mx-auto image-wrap p-4">
                   <img src={project.img} alt="project-img" className="" />
                   <div className="mt-6 flex justify-between items-center">
@@ -74,42 +74,10 @@ const Projects = () => {
             </div>
           </div>
         ))}
-
-        {/* <div className=" ">
-          <div class="cards">
-            <div class="cards2">
-              <div className="mx-auto image-wrap p-4">
-                <img src={project2} alt="project-img" className="" />
-                <div className="mt-4">
-                  <button className="btn bg-black border-0 w-24">Live</button>
-                  <button className="btn bg-black border-0 ml-4 w-24">
-                    Code
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className=" ">
-          <div class="cards">
-            <div class="cards2">
-              <div className="mx-auto image-wrap p-4">
-                <img src={project3} alt="project-img" className="" />
-                <div className="mt-4 flex justify-around items-center">
-                  <button className="btn bg-black border-0 w-24">Live</button>
-                  <button className="btn bg-black border-0 ml-4 w-24">
-                    Client Code
-                  </button>
-                 
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> */}
       </div>
 
       <div className="flex justify-center items-center my-24">
-        <Link to="/projects">
+        <Link to="/portfolio">
           <PrimaryButton>See More Project</PrimaryButton>
         </Link>
       </div>

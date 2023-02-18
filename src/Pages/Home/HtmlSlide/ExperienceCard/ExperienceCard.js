@@ -6,11 +6,11 @@ const ExperienceCard = () => {
       <div className="m-6 bg-black lg:p-12 p-6 rounded-md">
         <div className="lg:flex justify-center items-center gap-x-6 py-12">
           <div
-            class="boxes  my-20 lg:my-0 mx-auto"
+            className="boxes  my-20 lg:my-0 mx-auto"
             data-aos="fade-right"
             data-aos-delay="300"
           >
-            <div class="content text-center mt-4">
+            <div className="content text-center mt-4">
               <h2>
                 <span className="text-3xl font-bold">
                   20+ <br />
@@ -20,11 +20,11 @@ const ExperienceCard = () => {
             </div>
           </div>
           <div
-            class="boxes  my-20 lg:my-0 mx-auto"
+            className="boxes  my-20 lg:my-0 mx-auto"
             data-aos="fade-up"
             data-aos-delay="500"
           >
-            <div class="content text-center mt-4">
+            <div className="content text-center mt-4">
               <h2>
                 <span className="text-3xl font-bold">
                   Good <br />{" "}
@@ -34,11 +34,11 @@ const ExperienceCard = () => {
             </div>
           </div>
           <div
-            class="boxes  my-20 lg:my-0 mx-auto"
+            className="boxes  my-20 lg:my-0 mx-auto"
             data-aos="fade-down"
             data-aos-delay="700"
           >
-            <div class="content text-center mt-4">
+            <div className="content text-center mt-4">
               <h2>
                 <span className="text-3xl font-bold">
                   100% <br />
@@ -48,11 +48,11 @@ const ExperienceCard = () => {
             </div>
           </div>
           <div
-            class="boxes  my-20 lg:my-0 mx-auto"
+            className="boxes  my-20 lg:my-0 mx-auto"
             data-aos="fade-left"
             data-aos-delay="900"
           >
-            <div class="content text-center mt-4">
+            <div className="content text-center mt-4">
               <h2>
                 <span className="text-3xl font-bold">
                   2+ <br />{" "}

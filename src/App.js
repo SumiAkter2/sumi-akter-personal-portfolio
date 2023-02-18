@@ -1,4 +1,4 @@
-import { RouterProvider } from "react-router-dom";
+import { Link, RouterProvider } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
 import { ImDownload3 } from "react-icons/im";
 import { FaHome } from "react-icons/fa";
@@ -36,13 +36,22 @@ function App() {
       data-theme="dark"
     >
       <div
-        className=" bg-transparent fixed top-[320px] right-3 
+        className=" bg-transparent fixed top-[280px] right-3 
       "
       >
-        <LinkButton childrens={icon1}>Home</LinkButton>
-        <LinkButton childrens={icon2}>About</LinkButton>
-        <LinkButton childrens={icon3}>Contact</LinkButton>
-        <LinkButton childrens={icon4}>Portfolio</LinkButton>
+        <LinkButton props={"/"} prop={icon1}>
+          Home
+        </LinkButton>
+        <LinkButton props={"/portfolio"} prop={icon4}>
+          Portfolio
+        </LinkButton>
+        <LinkButton props={"/about"} prop={icon2}>
+          About
+        </LinkButton>
+
+        <LinkButton props={"/contact"} prop={icon3}>
+          Contact
+        </LinkButton>
       </div>
       <RouterProvider router={router}> </RouterProvider>
       <ToastContainer />

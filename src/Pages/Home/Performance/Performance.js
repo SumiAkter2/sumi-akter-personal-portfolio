@@ -7,8 +7,8 @@ const Performance = () => {
   return (
     <div className="my-12">
       <div className="lg:flex justify-center items-center gap-x-8 bg-black px-2 mx-auto rounded-lg py-6 ">
-        <div class="performance-card my-6 mx-auto " data-aos="zoom-in">
-          <div class="card2">
+        <div className="performance-card my-6 mx-auto " data-aos="zoom-in">
+          <div className="card2">
             <div className=" text-white p-6">
               <TbActivityHeartbeat size="40px" color="#ec42f5" />
               <h1 className="text-2xl font-bold my-4">Fast Performance</h1>
@@ -20,11 +20,11 @@ const Performance = () => {
           </div>
         </div>
         <div
-          class="performance-card my-6 mx-auto"
+          className="performance-card my-6 mx-auto"
           data-aos="zoom-in"
           data-aos-delay="200"
         >
-          <div class="card2">
+          <div className="card2">
             <div className=" text-white p-6">
               <AiFillMobile size="40px" color="#ec42f5" />
               <h1 className="text-2xl font-bold my-4">Perfect Responsive</h1>
@@ -36,11 +36,11 @@ const Performance = () => {
           </div>
         </div>
         <div
-          class="performance-card my-6 mx-auto"
+          className="performance-card my-6 mx-auto"
           data-aos="zoom-in"
           data-aos-delay="400"
         >
-          <div class="card2">
+          <div className="card2">
             <div className=" text-white p-6">
               <FaHeadset size="40px" color="#ec42f5" />
               <h1 className="text-2xl font-bold my-4">
