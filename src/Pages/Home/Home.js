@@ -42,7 +42,7 @@ function Home() {
             },
             modes: {
               push: {
-                quantity: 4,
+                quantity: 2,
               },
               repulse: {
                 distance: 200,
@@ -79,7 +79,7 @@ function Home() {
                 enable: true,
                 area: 800,
               },
-              value: 90,
+              value: 50,
             },
             opacity: {
               value: 0.5,

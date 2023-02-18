@@ -18,21 +18,23 @@ const About = () => {
         >
           About Me
         </h1>
-        <p className="leading-normal">
-          I am a Junior Web Developer. I am experienced in HTML5, CSS3,
-          Bootstrap, Java script, React JS, Tailwind, Node JS and MongoDB. I
-          have completed about 10+ projects using my skill in all programming
-          knowledge. Some of my projects are Innovative agency, Best Tools
-          Co,The Car Land an so on. The first two are Full stack website and the
-          rest one is a Front End Website. Day by day I am trying to gain more
-          skill in this sector with the best of mine. I am very much dedicated
-          to my duty and want to developed a bright future in this sector. I
-          have completed a Complete Web Development Course on Web Development
-          from Programming Hero. After this course, I've achieved a Black Belt
-          by scoring top 5% of the course. I love gardening, cooking and talking
-          with people. During leisure time , I take care of my garden. I like to
-          motivate people to lead a happy life. On holiday, I spend my time with
-          my family.
+        <p className="leading-7 ">
+          I am a Junior Web Developer. I am experienced in HTML5, CSS3, ReactJs,
+          JavaScript, Bootstrap, Tailwind CSS, DaisyUI, React Router. Familiar
+          With Redux, NodeJs, ExpressJs, MongoDB, Firebase, Heroku, Netlify,
+          React Query, Axios, ES6. I have completed about 20+ projects using my
+          skill in all programming knowledge. Some of my projects are
+          CryptoVest,One step Auto Zone, BlackFit, Innovative agency, Best Tools
+          Co,The Car Land an so on. There are some Full stack website and some
+          Front End Website. Day by day I am trying to gain more skill in this
+          sector with the best of mine. I am very much dedicated to my duty and
+          want to developed a bright future in this sector. I have completed a
+          Complete Web Development Course on Web Development from Programming
+          Hero. After this course, I've achieved a Black Belt by scoring top 5%
+          of the course. I love gardening, cooking and talking with people.
+          During leisure time , I take care of my garden. I like to motivate
+          people to lead a happy life. On holiday, I spend my time with my
+          family.
         </p>
         <div className="mt-6 lg:mt-12">
           <NavLink

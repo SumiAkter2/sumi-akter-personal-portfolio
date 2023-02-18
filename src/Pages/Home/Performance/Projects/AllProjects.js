@@ -60,16 +60,7 @@ const AllProjects = () => {
       ClientsLink: "https://github.com/SumiAkter2/inilabs-school",
       des: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit consequatur nisi veritatis totam, exercitationem architecto sit, consectetur tempora voluptate pariatur, ex quod soluta. Ratione dolorem perspiciatis tempore nobis quod consequuntur?",
     },
-    {
-      id: 6,
-      Name: "Innovative Agency",
-      img: "https://i.ibb.co/1bMbk2j/Innovative-sort.png",
-      imgSort: "https://i.ibb.co/1bMbk2j/Innovative-sort.png",
-      liveLink: "https://innovative-agency-43eb0.web.app/",
-      ClientsLink: "https://github.com/SumiAkter2/innovative-agency-clients",
-      ServerLink: "https://github.com/SumiAkter2/innovative-agency-server",
-      des: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit consequatur nisi veritatis totam, exercitationem architecto sit, consectetur tempora voluptate pariatur, ex quod soluta. Ratione dolorem perspiciatis tempore nobis quod consequuntur?",
-    },
+
     {
       id: 8,
       Name: "Doctors Portal",
@@ -107,24 +98,7 @@ const AllProjects = () => {
       ClientsLink: "https://github.com/SumiAkter2/Bangladesh",
       des: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit consequatur nisi veritatis totam, exercitationem architecto sit, consectetur tempora voluptate pariatur, ex quod soluta. Ratione dolorem perspiciatis tempore nobis quod consequuntur?",
     },
-    {
-      id: 11,
-      Name: "Green Nature",
-      img: "https://i.ibb.co/6N2239F/Green-Nature.png",
-      imgSort: "https://i.ibb.co/zNSxrF0/Green-Nature-sort.png",
-      liveLink: "https://simple-3-page-of-html.vercel.app/",
-      ClientsLink: "https://github.com/SumiAkter2/Simple-3-page-of-html",
-      des: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit consequatur nisi veritatis totam, exercitationem architecto sit, consectetur tempora voluptate pariatur, ex quod soluta. Ratione dolorem perspiciatis tempore nobis quod consequuntur?",
-    },
-    {
-      id: 12,
-      Name: "Exhibit Your Beauty",
-      img: "https://i.ibb.co/HDfJBTF/Beauty.png",
-      imgSort: "https://i.ibb.co/WDzN30G/Beauty-sort.png",
-      liveLink: "https://tiny-monstera-043ad8.netlify.app/",
-      ClientsLink: "https://github.com/SumiAkter2/lucky-one-select",
-      des: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit consequatur nisi veritatis totam, exercitationem architecto sit, consectetur tempora voluptate pariatur, ex quod soluta. Ratione dolorem perspiciatis tempore nobis quod consequuntur?",
-    },
+
     {
       id: 13,
       Name: "Phone Seeker",
