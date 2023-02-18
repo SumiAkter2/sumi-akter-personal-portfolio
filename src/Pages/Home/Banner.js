@@ -1,10 +1,5 @@
 import React from "react";
 import "./Banner.css";
-import { ImDownload3 } from "react-icons/im";
-import { FaHome } from "react-icons/fa";
-import { HiInformationCircle } from "react-icons/hi";
-import { MdContactPhone } from "react-icons/md";
-import { MdWork } from "react-icons/md";
 import { FaFacebookF } from "react-icons/fa";
 import { GrLinkedinOption } from "react-icons/gr";
 import { RiGithubLine } from "react-icons/ri";

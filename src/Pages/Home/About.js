@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 import PrimaryButton from "../Button/PrimaryButton";
 import SkillBar from "../Skills/SkillBar";
 import { Typewriter } from "react-simple-typewriter";
+import LinkButton from "../Button/LinkButton";
 
 const About = () => {
   return (
@@ -77,6 +78,7 @@ const About = () => {
             <li className="font-bold">Available</li>
           </ul>
           <div>
+            <LinkButton> home</LinkButton>
             <SkillBar />
           </div>
         </div>

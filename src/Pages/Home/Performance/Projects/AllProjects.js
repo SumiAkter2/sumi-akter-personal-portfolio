@@ -160,7 +160,7 @@ const AllProjects = () => {
                   <div className="mt-6 flex justify-between items-center">
                     <a target="_blank" rel="noreferrer" href={project.liveLink}>
                       {" "}
-                      <button className="btn btn-primary btn-outline rounded-full bg-black w-36">
+                      <button className="btn btn-primary btn-outline rounded-full bg-black lg:w-36 w-24">
                         Live
                       </button>
                     </a>
@@ -170,7 +170,7 @@ const AllProjects = () => {
                       href={project.ClientsLink}
                     >
                       {" "}
-                      <button className="btn btn-primary btn-outline rounded-full bg-black w-36">
+                      <button className="btn btn-primary btn-outline rounded-full bg-black lg:w-36 w-24">
                         Code
                       </button>
                     </a>
