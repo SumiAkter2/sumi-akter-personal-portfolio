@@ -74,7 +74,7 @@ const Banner = () => {
         </div>
       </div>
 
-      <div className="flex justify-center items-center  lg:mt-12 mt-6">
+      <div className="flex justify-center items-center  mt-12 ">
         <div className="font-sans">
           <small data-aos="fade-down">Hi, Welcome to my Portfolio</small>
           <h1 className="lg:text-5xl text-3xl font-bold lg:my-12 my-6">
