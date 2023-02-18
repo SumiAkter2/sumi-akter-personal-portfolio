@@ -8,6 +8,7 @@ import { MdWork } from "react-icons/md";
 import "react-toastify/dist/ReactToastify.css";
 import LinkButton from "./Pages/Button/LinkButton";
 import router from "./Router/Routes";
+import AnimatedCursor from "react-animated-cursor";
 
 function App() {
   const icon1 = (
@@ -35,6 +36,33 @@ function App() {
       className="max-w-screen-xl mx-auto  bg-base-100 relative "
       data-theme="dark"
     >
+      <AnimatedCursor
+        innerSize={20}
+        outerSize={40}
+        color="white"
+        outerAlpha={0.2}
+        innerScale={0.7}
+        outerScale={2}
+        clickables={[
+          "a",
+          'input[type="text"]',
+          'input[type="email"]',
+          'input[type="number"]',
+          'input[type="submit"]',
+          'input[type="image"]',
+          "label[for]",
+          "select",
+          "textarea",
+          "button",
+          ".link",
+        ]}
+        innerStyle={{
+          background: " #ec42f5",
+        }}
+        outerStyle={{
+          border: "3px solid white",
+        }}
+      />
       <div
         className=" bg-transparent fixed top-[280px] right-3 
       "
