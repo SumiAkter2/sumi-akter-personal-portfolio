@@ -1,8 +1,6 @@
 import React from "react";
 import "./Project.css";
-import project1 from "../../../../assets/img/cryptoVest.png";
-import project2 from "../../../../assets/img/Luxury suites.png";
-import project3 from "../../../../assets/img/blackfit.png";
+
 import PrimaryButton from "../../../Button/PrimaryButton";
 import { Link } from "react-router-dom";
 
@@ -18,7 +16,7 @@ const Projects = () => {
       des: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit consequatur nisi veritatis totam, exercitationem architecto sit, consectetur tempora voluptate pariatur, ex quod soluta. Ratione dolorem perspiciatis tempore nobis quod consequuntur?",
     },
     {
-      id: 2,
+      id: 3,
       Name: "BlackFit",
       img: "https://i.ibb.co/WKdPCNJ/blackfit.png",
       imgSort: "https://i.ibb.co/6yTrfSP/Black-Fit-Sort.png",
@@ -27,9 +25,9 @@ const Projects = () => {
       des: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit consequatur nisi veritatis totam, exercitationem architecto sit, consectetur tempora voluptate pariatur, ex quod soluta. Ratione dolorem perspiciatis tempore nobis quod consequuntur?",
     },
     {
-      id: 3,
+      id: 2,
       Name: "Luxury Suites",
-      img: "https://i.ibb.co/brH2NsS/Luxury-suites.png",
+      img: "https://i.ibb.co/VVNNLLQ/Luxury-suites.png",
       imgSort: "https://i.ibb.co/pXRfSSc/luxury-sort.png",
       liveLink: "https://luxury-suites-6b69b.web.app/",
       ClientsLink: "https://github.com/SumiAkter2/Luxury-suites-client",

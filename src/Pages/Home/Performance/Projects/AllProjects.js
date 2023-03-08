@@ -25,7 +25,7 @@ const AllProjects = () => {
     {
       id: 3,
       Name: "Luxury Suites",
-      img: "https://i.ibb.co/brH2NsS/Luxury-suites.png",
+      img: "https://i.ibb.co/VVNNLLQ/Luxury-suites.png",
       imgSort: "https://i.ibb.co/pXRfSSc/luxury-sort.png",
       liveLink: "https://luxury-suites-6b69b.web.app/",
       ClientsLink: "https://github.com/SumiAkter2/Luxury-suites-client",
