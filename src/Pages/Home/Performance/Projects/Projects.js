@@ -7,6 +7,16 @@ import { Link } from "react-router-dom";
 const Projects = () => {
   const projects = [
     {
+      id: 2,
+      Name: "Luxury Suites",
+      img: "https://i.ibb.co/VVNNLLQ/Luxury-suites.png",
+      imgSort: "https://i.ibb.co/pXRfSSc/luxury-sort.png",
+      liveLink: "https://luxury-suites-6b69b.web.app/",
+      ClientsLink: "https://github.com/SumiAkter2/Luxury-suites-client",
+      ServerLink: "https://github.com/SumiAkter2/luxury-suites-server",
+      des: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit consequatur nisi veritatis totam, exercitationem architecto sit, consectetur tempora voluptate pariatur, ex quod soluta. Ratione dolorem perspiciatis tempore nobis quod consequuntur?",
+    },
+    {
       id: 1,
       Name: "CryptoVest",
       img: "https://i.ibb.co/S5fDBVJ/crypto-Vest.png",
@@ -22,16 +32,6 @@ const Projects = () => {
       imgSort: "https://i.ibb.co/6yTrfSP/Black-Fit-Sort.png",
       liveLink: "https://blackfit.vercel.app/",
       ClientsLink: "https://github.com/SumiAkter2/blackfit",
-      des: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit consequatur nisi veritatis totam, exercitationem architecto sit, consectetur tempora voluptate pariatur, ex quod soluta. Ratione dolorem perspiciatis tempore nobis quod consequuntur?",
-    },
-    {
-      id: 2,
-      Name: "Luxury Suites",
-      img: "https://i.ibb.co/VVNNLLQ/Luxury-suites.png",
-      imgSort: "https://i.ibb.co/pXRfSSc/luxury-sort.png",
-      liveLink: "https://luxury-suites-6b69b.web.app/",
-      ClientsLink: "https://github.com/SumiAkter2/Luxury-suites-client",
-      ServerLink: "https://github.com/SumiAkter2/luxury-suites-server",
       des: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit consequatur nisi veritatis totam, exercitationem architecto sit, consectetur tempora voluptate pariatur, ex quod soluta. Ratione dolorem perspiciatis tempore nobis quod consequuntur?",
     },
   ];

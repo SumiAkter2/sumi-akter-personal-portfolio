@@ -5,6 +5,16 @@ import PrimaryButton from "../../../Button/PrimaryButton";
 const AllProjects = () => {
   const projects = [
     {
+      id: 3,
+      Name: "Luxury Suites",
+      img: "https://i.ibb.co/VVNNLLQ/Luxury-suites.png",
+      imgSort: "https://i.ibb.co/pXRfSSc/luxury-sort.png",
+      liveLink: "https://luxury-suites-6b69b.web.app/",
+      ClientsLink: "https://github.com/SumiAkter2/Luxury-suites-client",
+      ServerLink: "https://github.com/SumiAkter2/luxury-suites-server",
+      des: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit consequatur nisi veritatis totam, exercitationem architecto sit, consectetur tempora voluptate pariatur, ex quod soluta. Ratione dolorem perspiciatis tempore nobis quod consequuntur?",
+    },
+    {
       id: 1,
       Name: "CryptoVest",
       img: "https://i.ibb.co/S5fDBVJ/crypto-Vest.png",
@@ -23,25 +33,17 @@ const AllProjects = () => {
       des: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit consequatur nisi veritatis totam, exercitationem architecto sit, consectetur tempora voluptate pariatur, ex quod soluta. Ratione dolorem perspiciatis tempore nobis quod consequuntur?",
     },
     {
-      id: 3,
-      Name: "Luxury Suites",
-      img: "https://i.ibb.co/VVNNLLQ/Luxury-suites.png",
-      imgSort: "https://i.ibb.co/pXRfSSc/luxury-sort.png",
-      liveLink: "https://luxury-suites-6b69b.web.app/",
-      ClientsLink: "https://github.com/SumiAkter2/Luxury-suites-client",
-      ServerLink: "https://github.com/SumiAkter2/luxury-suites-server",
-      des: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit consequatur nisi veritatis totam, exercitationem architecto sit, consectetur tempora voluptate pariatur, ex quod soluta. Ratione dolorem perspiciatis tempore nobis quod consequuntur?",
-    },
-    {
       id: 4,
-      Name: "Best Tools co",
-      img: "https://i.ibb.co/DfzMygZ/Best-Tools.png",
+      Name: "One Step Auto Zone",
+      img: "https://i.ibb.co/s5qvqm0/auto-zone.png",
       imgSort: "https://i.ibb.co/HFffsPZ/Best-Tools-Sort.png",
-      liveLink: "https://best-tools-7262f.web.app/",
-      ClientsLink: "https://github.com/SumiAkter2/best-tools-clients",
-      ServerLink: "https://github.com/SumiAkter2/best-tools-server",
+      liveLink: "https://one-step-auto-zone.web.app/",
+      ClientsLink:
+        "https://github.com/SumiAkter2/one-step-auto-zone-client-site",
+      // ServerLink: "https://github.com/SumiAkter2/best-tools-server",
       des: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit consequatur nisi veritatis totam, exercitationem architecto sit, consectetur tempora voluptate pariatur, ex quod soluta. Ratione dolorem perspiciatis tempore nobis quod consequuntur?",
     },
+
     {
       id: 5,
       Name: "BD Garage",
@@ -50,6 +52,16 @@ const AllProjects = () => {
       liveLink: "https://bd-garage.vercel.app/",
       ClientsLink: "https://github.com/SumiAkter2/bd-garage",
       des: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit consequatur nisi veritatis totam, exercitationem architecto sit, consectetur tempora voluptate pariatur, ex quod soluta. Ratione dolorem persp",
+    },
+    {
+      id: 16,
+      Name: "Best Tools co",
+      img: "https://i.ibb.co/DfzMygZ/Best-Tools.png",
+      imgSort: "https://i.ibb.co/HFffsPZ/Best-Tools-Sort.png",
+      liveLink: "https://best-tools-7262f.web.app/",
+      ClientsLink: "https://github.com/SumiAkter2/best-tools-clients",
+      ServerLink: "https://github.com/SumiAkter2/best-tools-server",
+      des: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit consequatur nisi veritatis totam, exercitationem architecto sit, consectetur tempora voluptate pariatur, ex quod soluta. Ratione dolorem perspiciatis tempore nobis quod consequuntur?",
     },
     {
       id: 7,
