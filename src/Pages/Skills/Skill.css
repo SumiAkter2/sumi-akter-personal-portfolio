@@ -1,0 +1,103 @@
+.skill-box {
+    width: 600px;
+    margin: 15px auto;
+}
+
+.skill-box .title {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.skill-box .skill-bar {
+    height: 8px;
+    width: 100%;
+    border-radius: 6px;
+    margin-top: 6px;
+    background: white;
+}
+
+.skill-box .skill-per {
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 95%;
+    border-radius: 6px;
+    background: #f94ed7;
+    animation: progress 0.4s ease-in-out forwards;
+    opacity: 0;
+}
+
+.skill-per.html {
+    width: 95%;
+    animation-delay: 0.1s;
+}
+
+.skill-per.css {
+    width: 93%;
+    animation-delay: 0.1s;
+}
+
+.skill-per.javascript {
+    width: 80%;
+    animation-delay: 0.2s;
+}
+
+.skill-per.nodejs {
+    width: 70%;
+    animation-delay: 0.3s;
+}
+
+.skill-per.reactjs {
+    width: 80%;
+    animation-delay: 0.3s;
+}
+
+.skill-per.expressjs {
+    width: 70%;
+    animation-delay: 0.3s;
+}
+
+
+@keyframes progress {
+    0% {
+        width: 0;
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.skill-per .tooltip {
+    position: absolute;
+    right: -14px;
+    top: -28px;
+    font-size: 9px;
+    font-weight: 500;
+    color: #fff;
+    padding: 2px 6px;
+    border-radius: 3px;
+    background: #f94ed7;
+    z-index: 1;
+}
+
+.tooltip::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    height: 20px;
+    width: 20px;
+    z-index: -1;
+    background-color: #f94ed7;
+    transform: translateX(-50%) rotate(45deg);
+}
+
+@media screen and (max-width:560px) {
+    .skill-box {
+        width: 290px;
+    }
+}

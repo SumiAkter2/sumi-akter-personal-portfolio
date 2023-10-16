@@ -1,0 +1,25 @@
+.performance-card {
+    width: 280px;
+    height: 254px;
+    background-image: linear-gradient(163deg, rgb(99, 16, 135) 0%, #ec42f5 100%);
+    border-radius: 20px;
+    transition: all .3s;
+    margin:10px auto;
+}
+
+.card2 {
+    width: 280px;
+    height: 254px;
+    background-color: #1a1a1acf;
+    transition: all .2s;
+    border-radius: 20px;
+}
+
+.card2:hover {
+    transform: scale(0.98);
+    border-radius: 20px;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 30px 1px #ec42f5;
+}

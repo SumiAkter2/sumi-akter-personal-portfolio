@@ -1,0 +1,14 @@
+.banner-container{
+    background-color: #2b2f37;
+        min-height: 100vh;
+        border-radius:20px;
+        background-image: url('../../assets/banner.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-blend-mode: overlay;
+        color: white;
+        line-height: 1.8;
+        margin:0 auto;   
+       
+}
